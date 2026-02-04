@@ -1,6 +1,7 @@
 OUTBIN  = r0
 
-# PHONY tells make that these steps do not produce any files, Make will always run these steps.
+# PHONY tells make that these targets are not build artifacts and instead mark them as commands.
+# This way, make will always run the steps when requested.
 .PHONY: clean build debug memcheck
 
 clean:
