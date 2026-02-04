@@ -20,7 +20,7 @@ int pollute() {
 
 int main()
 {
-    // This simulates normal system usage where this or other processeses may make memory dirty by writing to it.
+    // This simulates normal system usage where this or other processes may make memory dirty by writing to it.
     // Never assume that the Kernel will give you a clean page of memory.
     pollute();
 
